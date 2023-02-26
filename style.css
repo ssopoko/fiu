@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  nav {
+    width: 100%;
+    height: auto;
+    background-color: #7c2c0c;
+    background-size: 100%;
+    border-top: 20px solid #efe4d1;
+    border-bottom: 20px solid #efe4d1;
+  }
+  .logo {
+    width: 60px;
+  }
+  .nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .nav-box li {
+    padding: 15px;
+  }
+  .navigation {
+    margin-left: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .icons {
+    display: flex;
+  }
+  .icons img {
+    width: 20px;
+  }
+  .first-section{
+    background-color: #fae6c4;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    -webkit-box-shadow: 0 4px  10px  #393939;
+  }
+  .column{
+    /* margin-left: 10%; */
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+  }
+  h1{
+    font-size: 50px;
+    color: #7c2c0c;
+  }
+p{
+    padding-top: 30px;
+    font-size: 20px;
+    width: 60%;
+    color: #7c2c0c;
+}
+.sofa{
+    width:500px;
+}
+.link{
+    margin-top: 50px;
+    border: 1px solid brown;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7c2c0c;
+    font-size: 18px;
+}
+.link:hover{
+    background-color: #7c2c0c;
+    transition: 0.5s;
+    color: white;
+}
+/* ABOUT US SECTION STARTS HERE */
+.row{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 140px;
+  padding: 90px;
+}
+.information{
+  display: flex;
+  flex-direction: column;
+}
+.img{
+  border: 1px solid #7c2c0c;
+  padding: 40px;
+  position: relative;
+}
+.img::after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url(../images/download.png);
+  left: -30px;
+  top: -30px;
+}
+
+.img::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url(../images/download.png);
+  right: -120px;
+  bottom: 0px;
+
+}
+.about{
+  width: 100%;
+  font-size: 18px;
+  color: #535353;
+}
+.about-heading{
+    /* width: 100%; */
+    font-size: 40px;
+    color: #7c2c0c;
+    font-weight: bold;
+}
+
+
+
+/* third-section starts here */
+.third-section{
+  margin-top:20px;
+}
+.column2{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  align-items: center;
+  gap :20px;
+}
+.bigp{
+  width: 100%;
+  color: grey;
+}
+.work-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.three-column{
+  width: 80%;
+  display: flex;
+  justify-content:center;
+  margin-top: 30px;
+  gap: 30px;
+}
+.first-column, .second-column, .third-column {
+  width: 100%;
+  padding: 50px;
+  border: 1px solid #aa7662;
+  text-align: center;
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.column-text{
+width: 100%;
+font-size: 20px;
+color:#7c2c0c;;
+text-align: center;
+padding-bottom: 20px;
+}
+h2{
+width: 100%;
+font-size: 20px;
+font-style: bold;
+color: #7c2c0c;
+text-align: center;
+}
+.img1{
+  width: 100%;
+ padding-top:30px; 
+}
+.buy{
+width: 100%;
+font-size: 18px;
+background-color: #7c2c0c;
+border: 10px solid #7c2c0c;
+border-left: 30px solid #7c2c0c;
+border-right: 30px solid #7c2c0c;
+border-radius: 5px;
+}
+.price{
+  display: flex;
+  flex-direction: column;
+}
+.first-column:hover, .second-column:hover, .third-column:hover{
+  border: 0px;
+  background-color: #efe4d1 ;
+  transition: 0.7s;
+}
+.arrows{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:100px;
+
+  
+}
+.last-arr{
+  width: 60px;;
+  height: 60px;
+  color: black;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.last-arr:hover{
+  color: white;
+  background-color: #7c2c0c;
+  transition: 0.5s;
+}
